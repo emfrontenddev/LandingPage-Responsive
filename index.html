@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Landing Page Responsive</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo-img" src="./img/LOGO.png">
+            <div class="nav-list">
+                <ul>
+                    <li class="item"><button onclick="about()" class="about">ABOUT</button></li>
+                    <li class="item"><button onclick="contact()" class="contact">CONTACT</button></li>
+                    <li class="item"><button onclick="projects()" class="projects">PROJECTS</button></li>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <button onclick="menu()"><i id="icon" class='bx bx-menu'></i></button>
+            </div>
+        </nav>
+        <!--Mobile-->
+        <div class="mobile-menu">
+            <ul>
+                <li class="item"><button onclick="about()" class="about">ABOUT</button></li>
+                <li class="item"><button onclick="contact()" class="contact">CONTACT</button></li>
+                <li class="item"><button onclick="projects()" class="projects">PROJECTS</button></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="content-about">
+            <h1>ABOUT</h1>
+            <h2>THIS IS MY PROJECT RESPONSIVE<br>LANDING PAGE</h2>
+            <img src="./img/LOGO.png">
+            <p>This site is an example of landing page. Here is used HTML, CSS and JAVASCRIPT</p>
+        </div>
+        
+        <div class="content-contact">
+            <h1>CONTACT</h1>
+            <div class="social">
+                <a href="https://instagram.com/emfrontend?igshid=ZDdkNTZiNTM=" target="_blank">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+                <a href="https://github.com/emfrontenddev" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>  
+            </div>
+            <p>SOCIAL MEDIA</p>
+        </div>
+
+        <div class="content-projects">
+            <h1>PROJECTS</h1>
+            <h2>HERE IS MY PROJECTS</h2>
+            <p>Some examples logos:</p>
+            <img src="./img/Eco.png">
+            <img src="./img/Games.png">
+            <img src="./img/Pizza.png">
+            <img src="./img/Tech.png">
+        </div>
+
+        <div class="home">
+            <h1>WELCOME TO MY WEBSITE</h1>
+        </div>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+</html>
